@@ -1,6 +1,9 @@
 filetype plugin on
 filetype indent on
 
+set nocompatible
+set backspace=2
+
 set autoread
 
 set ignorecase
@@ -57,5 +60,6 @@ let g:syntastic_check_on_write = 1
 let g:syntastic_check_on_wq = 0
 
 set t_Co=256
+set cc=90
 
 execute pathogen#infect()
