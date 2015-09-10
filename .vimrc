@@ -35,6 +35,8 @@ autocmd BufWrite *.py :call DeleteTrailingWS()
 autocmd FileType c,cpp set cindent
 set sw=2
 set tabstop=2
+set expandtab
+
 set showmode
 
 filetype on
@@ -52,6 +54,7 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
+map <C-s> :SyntasticToggleMode<CR>
 let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 0
