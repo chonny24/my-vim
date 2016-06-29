@@ -6,6 +6,8 @@ set backspace=2
 
 set autoread
 
+set nowrap
+
 set ignorecase
 
 set wildmenu
