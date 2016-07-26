@@ -20,6 +20,8 @@ syntax enable
 
 colorscheme vividchalk
 
+set cursorline
+
 highlight Normal ctermbg=black
 
 autocmd BufReadPost *
