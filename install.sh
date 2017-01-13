@@ -30,3 +30,5 @@ git clone https://github.com/airblade/vim-gitgutter.git
 echo "**********************************************"
 git clone https://github.com/scrooloose/syntastic.git
 echo "**********************************************"
+git clone https://github.com/ekalinin/Dockerfile.vim.git Dockerfile
+echo "**********************************************"

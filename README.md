@@ -8,6 +8,7 @@
 * [Git-Gutter](https://github.com/airblade/vim-gitgutter): Shows git diff in "gutter"
 * [Syntastic](https://github.com/scrooloose/syntastic): Linting
 * [AutoComplPop](http://www.vim.org/scripts/script.php?script_id=1879): Automatically bring up autocompletion menu
+* [Dockerfile Syntax](https://github.com/ekalinin/Dockerfile.vim): Automatically bring up autocompletion menu
 
 ###### Colorschemes
 * [Vivid Chalk](https://github.com/tpope/vim-vividchalk): Pretty
