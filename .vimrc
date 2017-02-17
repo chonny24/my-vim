@@ -69,4 +69,6 @@ let g:syntastic_check_on_wq = 0
 set t_Co=256
 set cc=90
 
+hi Search cterm=NONE ctermfg=white ctermbg=blue
+
 execute pathogen#infect()
